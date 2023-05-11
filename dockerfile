@@ -1,3 +1,7 @@
+# EN-US | Create a dockerfile 
+# PT-BR | Crie um dockerfile
+# Licensed as CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)
+
 # Use a imagem base do Node.js
 FROM node:14
 
