@@ -1,0 +1,1912 @@
+version: 7
+profiles:
+  - name: SRV-BD-AG-INT
+    type: ssh
+    options:
+      host: 10.0.3.18
+      user: agcapital
+      algorithms: {}
+      input: {}
+      auth: password
+    icon: fas fa-server
+    id: ssh:custom:SRV-BD-AG-INT:d31ffe68-9c15-4b0d-bdfd-956e2bd7da53
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 096ec0c5-780f-4bf5-a856-18b04ea10922
+  - name: SRV-BD-AG-INT-NEW
+    type: ssh
+    options:
+      host: 10.0.3.17
+      user: agcapital
+      algorithms: {}
+      input: {}
+      auth: password
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    id: ssh:custom:SRV-BD-AG-INT-NEW:6bf34fed-f433-4bb0-a481-616ab87d5b84
+    group: 096ec0c5-780f-4bf5-a856-18b04ea10922
+  - name: SAPASH-AUDESOCIAL01
+    type: ssh
+    options:
+      host: 172.0.122.139
+      user: sw_audesocial
+      algorithms: {}
+      input: {}
+      auth: password
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    id: ssh:custom:sapash-audesocial01:ff4217d4-aeaf-4670-8475-222703d5ed26
+    group: 8385b270-f5ff-4d18-9d23-441021683afa
+  - name: SRV-ELK-STC-INT
+    type: ssh
+    options:
+      host: 10.0.3.14
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      scripts: []
+      privateKeys: []
+      forwardedPorts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 096ec0c5-780f-4bf5-a856-18b04ea10922
+    id: ssh:custom:SRV-ELK-STC-INT:9138fdb1-fc83-40fc-9fa6-e8a20cc614cf
+  - name: SRV-ELK-STC-INT-NEW
+    type: ssh
+    options:
+      host: 10.0.3.22
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 096ec0c5-780f-4bf5-a856-18b04ea10922
+    id: ssh:custom:SRV-ELK-STC-INT-NEW:c7d93da1-5f63-488c-b9c4-dc3aa555f3ce
+  - name: SRV-APP-HLM
+    type: ssh
+    options:
+      host: 10.0.3.107
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 708822dc-8248-42cf-9ef0-981e6845a590
+    id: ssh:custom:SRV-APP-HLM:b11a9230-7410-4258-87ca-e3858f1bcff9
+  - name: SRV-APP-DEMO
+    type: ssh
+    options:
+      host: 10.0.254.17
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    id: ssh:custom:SRV-APP-DEMO:eff92813-77ce-4932-a6c0-d7e9ccbbef0f
+    group: ddba2382-e5cd-4997-9eeb-1133f44e4d0a
+  - name: SRV-BD-DEMO
+    type: ssh
+    options:
+      host: 10.0.254.18
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    id: ssh:custom:SRV-BD-DEMO:5fa4a266-07d9-49de-a134-5bc6052e6b37
+    group: ddba2382-e5cd-4997-9eeb-1133f44e4d0a
+  - name: SRV-ELK-DYN-DEMO
+    type: ssh
+    options:
+      host: 10.0.254.19
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: ddba2382-e5cd-4997-9eeb-1133f44e4d0a
+    id: ssh:custom:SRV-ELK-DYN-DEMO:570bc9d6-f7a4-4bb4-9804-d10f532584cd
+  - name: SRV-BD-HLM-NEW
+    type: ssh
+    options:
+      host: 10.0.3.113
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    id: ssh:custom:SRV-BD-HLM-NEW:d282d60d-d600-4d43-9c98-75405f6fc451
+    group: 708822dc-8248-42cf-9ef0-981e6845a590
+  - name: SRV-ELASTICSEARCH-DYNAMIC-HLM
+    type: ssh
+    options:
+      host: 10.0.3.112
+      user: agcapital
+      algorithms: {}
+      input: {}
+      auth: password
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 708822dc-8248-42cf-9ef0-981e6845a590
+    id: >-
+      ssh:custom:SRV-ELASTICSEARCH-DYNAMIC-HLM:691341fa-ad39-4123-8d2b-6326e689a899
+  - name: SRV-KAFKA-SERVER-QA
+    type: ssh
+    options:
+      host: 10.0.3.86
+      user: agcapital
+      algorithms: {}
+      input: {}
+      auth: password
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 708822dc-8248-42cf-9ef0-981e6845a590
+    id: ssh:custom:SRV-KAFKA-SERVER-QA:0e7cfc00-b065-45ac-9da7-5c8b87b3dd6f
+  - name: SRV-APP-PROD
+    type: ssh
+    options:
+      host: 10.0.254.11
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    id: ssh:custom:SRV-APP-DEV:c650f5d0-7b1e-452d-aee1-63ffdc110b66
+    group: 4b3de545-e09d-44c6-9094-780b7d1732bb
+  - name: SRV-APP-DEV
+    type: ssh
+    options:
+      host: 10.0.3.16
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 939287b0-2a8d-44b8-a342-a3896d0589a0
+    id: ssh:custom:SRV-APP-DEV:307b839e-c155-4198-9f18-f9ab7fd14b69
+  - name: SRV-BD-DEV
+    type: ssh
+    options:
+      host: 10.0.3.55
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 939287b0-2a8d-44b8-a342-a3896d0589a0
+    id: ssh:custom:SRV-BD-DEV:71368505-393d-4f48-adbe-0647acb4091a
+  - name: SRV-BD-PRO
+    type: ssh
+    options:
+      host: 10.0.3.11
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 4b3de545-e09d-44c6-9094-780b7d1732bb
+    id: ssh:custom:SRV-BD-PRO:62909212-71f4-4199-970f-8158474c0293
+  - name: SRV-KAFKA-SERVER-DEV
+    type: ssh
+    options:
+      host: 10.0.3.85
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 939287b0-2a8d-44b8-a342-a3896d0589a0
+    id: ssh:custom:SRV-KAFKA-SERVER-DEV:d2cf68ca-438b-491e-bdf1-b68df62ad8ad
+  - name: SRV-ELASTICSEARCH-DYNAMIC-DEV
+    type: ssh
+    options:
+      host: 10.0.3.109
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    id: >-
+      ssh:custom:SRV-ELASTICSEARCH-DYNAMIC-DEV:bd16de51-141c-46c0-9c8d-33a397f93836
+    group: 939287b0-2a8d-44b8-a342-a3896d0589a0
+  - name: SRV-ELASTICSEARCH-DYNAMIC-PRD
+    type: ssh
+    options:
+      host: 10.0.254.14
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 4b3de545-e09d-44c6-9094-780b7d1732bb
+    id: >-
+      ssh:custom:SRV-ELASTICSEARCH-DYNAMIC-PRD:fd289817-3f10-449e-86f4-1b9912f9d10f
+  - name: SRV-ELK-STC-PRD
+    type: ssh
+    options:
+      host: 10.0.254.13
+      user: agcapital
+      algorithms: {}
+      input: {}
+      auth: password
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 4b3de545-e09d-44c6-9094-780b7d1732bb
+    id: ssh:custom:SRV-ELK-STC-PRD:dab1711d-bc67-48fe-8643-d20b5a41a518
+  - name: SRV-LOAD-BALANCER
+    type: ssh
+    options:
+      host: 10.0.3.20
+      user: agcapital
+      algorithms: {}
+      input: {}
+      auth: password
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 096ec0c5-780f-4bf5-a856-18b04ea10922
+    id: ssh:custom:SRV-LOAD-BALANCER:e4818b02-f323-46f0-92cd-a3837b500828
+  - name: SRV-PROXYMANAGER
+    type: ssh
+    options:
+      host: 10.0.3.120
+      user: agcapital
+      algorithms: {}
+      input: {}
+      auth: password
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 096ec0c5-780f-4bf5-a856-18b04ea10922
+    id: ssh:custom:SRV-PROXYMANAGER:ec472b23-0d9b-4407-ba82-732e4b481066
+  - name: SRV-MONITORAMENTO
+    type: ssh
+    options:
+      host: 10.0.3.57
+      user: agcapital
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 096ec0c5-780f-4bf5-a856-18b04ea10922
+    id: ssh:custom:SRV-MONITORAMENTO:e5e0f96f-01f2-4520-ad4d-296506631070
+  - name: App(Web) 1
+    type: ssh
+    options:
+      host: 10.1.163.183
+      user: ec2-user
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      input: {}
+      auth: publicKey
+      privateKeys:
+        - file://C:\Users\jose.moreira\.ssh\ag-capital-awsegov.pem
+      forwardedPorts: []
+      scripts: []
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    id: ssh:custom:AWS:80cd0fa6-8994-4af4-b719-29a7bb2709e7
+    group: 0c896597-9bbb-48c3-bc2c-897c62e21ab4
+  - name: App(Web) 2
+    type: ssh
+    options:
+      host: 10.1.149.223
+      user: ec2-user
+      algorithms: {}
+      input: {}
+      auth: publicKey
+      privateKeys:
+        - file://C:\Users\jose.moreira\.ssh\ag-capital-awsegov.pem
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 0c896597-9bbb-48c3-bc2c-897c62e21ab4
+    id: ssh:custom:App(Web)-2:b362b5da-b998-49b7-afce-ab7b74e73110
+  - name: SRV-NOTASFISCAIS
+    type: ssh
+    options:
+      host: 10.0.3.53
+      user: agcapital
+      algorithms: {}
+      input: {}
+      auth: password
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    id: ssh:custom:SRV-NOTASFISCAIS:4b9ce2f3-d4c0-4ec8-ba6c-7f7e3a759b86
+    group: 4f2a0514-8ba3-4d86-8947-5aa04bd663c4
+  - name: 'SRV-ROBOCRF '
+    type: ssh
+    options:
+      host: 10.0.254.10
+      user: jose
+      algorithms: {}
+      input: {}
+      auth: publicKey
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 708822dc-8248-42cf-9ef0-981e6845a590
+    id: ssh:custom:SRV-ROBOCRF:e1251202-6a71-4510-a09f-ed4d6684219d
+  - name: SRV-ROBOSOLFY
+    type: ssh
+    options:
+      host: 10.0.254.15
+      algorithms: {}
+      input: {}
+      auth: password
+      user: agcapital
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 708822dc-8248-42cf-9ef0-981e6845a590
+    id: ssh:custom:SRV-ROBOSOLFY:d3fbca53-1974-4edb-bbb4-7f70930a3653
+  - name: SRV-BD-BKP
+    type: ssh
+    options:
+      host: 10.0.3.58
+      user: agcapital
+      algorithms: {}
+      input: {}
+      auth: password
+    icon: fas fa-server
+    terminalColorScheme:
+      name: Atom
+      foreground: '#c5c8c6'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#000000'
+        - '#fd5ff1'
+        - '#87c38a'
+        - '#ffd7b1'
+        - '#85befd'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#94fa36'
+        - '#f5ffa8'
+        - '#96cbfe'
+        - '#b9b6fc'
+        - '#85befd'
+        - '#e0e0e0'
+    group: 939287b0-2a8d-44b8-a342-a3896d0589a0
+    id: ssh:custom:SRV-BD-DEV2:e1ac65c7-1910-4df5-98e0-13a97aaa3536
+groups:
+  - id: 096ec0c5-780f-4bf5-a856-18b04ea10922
+    name: AG Capital | INTERNO
+  - id: 8385b270-f5ff-4d18-9d23-441021683afa
+    name: VOBYS | ETI Piauí
+  - id: 708822dc-8248-42cf-9ef0-981e6845a590
+    name: AG Capital | QA
+  - id: ddba2382-e5cd-4997-9eeb-1133f44e4d0a
+    name: AG Capital | DEMO
+  - id: 4b3de545-e09d-44c6-9094-780b7d1732bb
+    name: AG Capital | PRD
+  - id: 939287b0-2a8d-44b8-a342-a3896d0589a0
+    name: AG Capital | DEV
+  - id: 0c896597-9bbb-48c3-bc2c-897c62e21ab4
+    name: AWS
+  - id: 4f2a0514-8ba3-4d86-8947-5aa04bd663c4
+    name: AG Capital | FIN
+configSync:
+  parts: {}
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy-current-path: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+    - Shift-Insert
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-line:
+    - Ctrl-Shift-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  focus-all-tabs:
+    - Ctrl-Alt-Shift-I
+  scroll-to-top:
+    - Ctrl-PageUp
+  scroll-up:
+    - Alt-PageUp
+  scroll-down:
+    - Alt-PageDown
+  scroll-to-bottom:
+    - Ctrl-PageDown
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings-tab: {}
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-tab:
+    - Ctrl-Shift-T
+  new-window:
+    - Ctrl-Shift-N
+  profile: {}
+  profile-selectors: {}
+  toggle-fullscreen:
+    - F11
+    - Alt-Enter
+  close-tab:
+    - Ctrl-Shift-W
+  reopen-tab:
+    - Ctrl-Shift-Z
+  toggle-last-tab: []
+  rename-tab:
+    - Ctrl-Shift-R
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  restart-tab: []
+  reconnect-tab: []
+  disconnect-tab: []
+  explode-tab:
+    - Ctrl-Shift-.
+  combine-tabs:
+    - Ctrl-Shift-,
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Ctrl-Shift-S
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-nav-1: []
+  pane-nav-2: []
+  pane-nav-3: []
+  pane-nav-4: []
+  pane-nav-5: []
+  pane-nav-6: []
+  pane-nav-7: []
+  pane-nav-8: []
+  pane-nav-9: []
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  close-pane: []
+  pane-increase-vertical: []
+  pane-decrease-vertical: []
+  pane-increase-horizontal: []
+  pane-decrease-horizontal: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-E
+  command-selector:
+    - Ctrl-Shift-P
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Tabby Default
+    foreground: '#cacaca'
+    background: '#171717'
+    cursor: '#bbbbbb'
+    colors:
+      - '#000000'
+      - '#ff615a'
+      - '#b1e969'
+      - '#ebd99c'
+      - '#5da9f6'
+      - '#e86aff'
+      - '#82fff7'
+      - '#dedacf'
+      - '#313131'
+      - '#f58c80'
+      - '#ddf88f'
+      - '#eee5b2'
+      - '#a5c7ff'
+      - '#ddaaff'
+      - '#b7fff9'
+      - '#ffffff'
+  customColorSchemes: []
+  showRecentProfiles: 5
+ssh:
+  knownHosts:
+    - host: 172.0.122.139
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: swbDWsgwWRhqQpxyu7j9C96Ea4wZkCLHTQufs7mRqeA=
+    - host: 10.0.3.17
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: F7IxGSni3RMY9LkoPCI4gz+tca1TrlaxA94AFPENrr4=
+    - host: ' 10.0.3.14'
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: 6jldY+r0T9DLz11IxDsDuJNzBu3fNJSQH8pkjHKdjNY=
+    - host: 10.0.3.16
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: sM6WDMB3UNskOcppdfc+oGoJwXH13HPMkEC6ZSoDn4Y=
+    - host: 10.0.3.57
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: S3wt9oMqJCcyELp88fJ7sMknf2ZCS25kLfau3sUlgKw=
+    - host: 10.0.3.18
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: AKcrfk7uFzwrDj6VnHqddZx8OKNQ0L/f/B48o7k8mAk=
+    - host: 10.0.3.14
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: 6jldY+r0T9DLz11IxDsDuJNzBu3fNJSQH8pkjHKdjNY=
+    - host: 10.0.3.107
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: Ao4J955SMfWgJJqc36MS+rC6D52gKLbUdPgaRyCDqvE=
+    - host: 10.0.254.10
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: JnLjlug3+/TxqIf2NDP/zRw/0AJrcOjq5KLlL/+NLAc=
+    - host: 10.0.3.22
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: jv7iCeCU8Cha+RCaTijArEGsfkVaJ2qOV1ye5e4qFMk=
+    - host: 10.0.254.17
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: rSvfyp9Ms3J/3wcn7Lsplozkv80xS/gPwxjC/jyuMH8=
+    - host: 10.0.254.18
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: vcxbaqyRxIaDSlswAXAfOFnTLoKPqt+zE4oCy3KItLU=
+    - host: 10.0.254.19
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: iLtLn16jq4U8vSY/DV0vLCDWtgx6X2FpRB2meWcgno8=
+    - host: 10.0.3.113
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: oOK1Wo7pE9+ukVq+dfXQhp5N40gC1+adBRPxus1SAL0=
+    - host: 10.0.3.112
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: FgvrswQRtV0AcZ+vS9y4ZrdeW0CmdkjEot8XRN+wVAA=
+    - host: 10.0.3.86
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: TdYiXBbWM7jujn22M5FzKxkzAt/E3ugjE7JyB0xtEwQ=
+    - host: 10.0.254.11
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: 486U6+ABLBY8iQRqbKiSogCDPcc806IgfPVlF4D+v2g=
+    - host: 10.0.3.55
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: IgsU1UOLhvF6rgYF+/zUCpE23mLiNeZeQlgA9fSYXnA=
+    - host: 10.0.3.11
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: yslz1dK8T84kEjG/jVMRo/KaP30bT3ju/+l+1LXPwn8=
+    - host: 10.0.3.85
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: TdYiXBbWM7jujn22M5FzKxkzAt/E3ugjE7JyB0xtEwQ=
+    - host: 10.0.3.109
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: WiDW9rMvqGHkbmdQffHYo/qcy90nBHD2B4QRNWa+FLg=
+    - host: 10.0.254.14
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: B6HM5kTsJfVngFgs+Cs3b9B0IfOL7zV7wZ5hYOQiei8=
+    - host: 10.0.254.13
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: EFZqxnuGn9ggWJjrf91ld5YZXZVtOVq/XpV0EeE7dS8=
+    - host: 10.0.3.20
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: 2iz3rYGu/T506/C3LripJPzj67nMTmWjFApDUtagttg=
+    - host: 10.0.3.120
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: MkNnq8fdIOPOnwkO81hxBJ6xABamoyKzHrwmTbW4bR8=
+    - host: 10.1.163.183
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: iwMjYrTpB/71A0cPREwSoOIw/5haPp+4zK0nR1/l6WM=
+    - host: 10.0.3.53
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: d60TdVCAzTo4ELry7NpBuQHmKvnALGOlONS8ld85r9M=
+    - host: 10.0.254.15
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: P+lMBBxIGPp+986bg5hcEpDWSY8A/QBAFm7YsUHQjvM=
+    - host: 10.0.3.58
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: IgsU1UOLhvF6rgYF+/zUCpE23mLiNeZeQlgA9fSYXnA=
+clickableLinks: {}
+accessibility: {}
+appearance: {}
+hacks: {}
+pluginBlacklist: []
+providerBlacklist: []
+commandBlacklist: []
+profileDefaults:
+  ssh:
+    disableDynamicTitle: true
+profileBlacklist: []
