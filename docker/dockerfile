@@ -3,7 +3,7 @@
 # Licensed as CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)
 
 # Use a imagem base do Node.js
-FROM node:14
+FROM node:24.6.0
 
 # Define o diretório de trabalho no contêiner
 WORKDIR /usr/src/app
